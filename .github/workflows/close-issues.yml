@@ -18,9 +18,7 @@ jobs:
             const issueNumber = context.payload.issue.number;
 
             // シンプルな自動返信のコメント（英語 / 日本語）
-            const commentBody = `Thank you for your feedback. We will consider it for future development.
-
-ご意見ありがとうございます。今後の開発の参考にさせていただきます。`;
+            const commentBody = "Thank you for your feedback. We will consider it for future development.\n\nご意見ありがとうございます。今後の開発の参考にさせていただきます。";
 
             // コメントの投稿
             await github.rest.issues.createComment({
