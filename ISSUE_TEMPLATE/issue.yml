@@ -1,0 +1,17 @@
+name: Feedback Box (No replies) / ご意見箱
+description: Feedback or bug reports / ご意見や不具合報告はこちら
+title: "[Feedback]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue will be closed automatically. Replies will generally not be provided. I may address the reported issue when I have free time, I may not, or I may even do the exact opposite.
+
+        Issueは自動的にクローズされます。基本的に返信はしません。頂いたIssueは暇なときに修正するかもしれませんし、しないかもしれませんし、真逆の修正をするかもしれません。
+  - type: textarea
+    id: content
+    attributes:
+      label: 内容 / Content
+      placeholder: Feel free to write here / ご自由にどうぞ
+    validations:
+      required: true
