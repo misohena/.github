@@ -4,9 +4,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        This issue will be automatically closed unconditionally. Replies will generally not be provided. I may address the reported issue when I have free time, I may not, or I may even do the exact opposite.
+        Note: This issue will be automatically closed unconditionally. Replies will generally not be provided. I may address the reported issue when I have free time, I may not, or I may even do the exact opposite.
 
-        Issueは無条件で自動的にクローズされます。基本的に返信はしません。頂いたIssueは暇なときに修正するかもしれませんし、しないかもしれませんし、真逆の修正をするかもしれません。
+        注意: Issueは無条件で自動的にクローズされます。基本的に返信はしません。頂いたIssueは暇なときに修正するかもしれませんし、しないかもしれませんし、真逆の修正をするかもしれません。
   - type: textarea
     id: content
     attributes:
