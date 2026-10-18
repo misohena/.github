@@ -1,6 +1,5 @@
 name: Feedback Box (No replies) / ご意見箱
 description: Feedback or bug reports / ご意見や不具合報告はこちら
-title: "[Feedback]: "
 body:
   - type: markdown
     attributes:
@@ -12,6 +11,5 @@ body:
     id: content
     attributes:
       label: 内容 / Content
-      placeholder: Feel free to write here / ご自由にどうぞ
     validations:
       required: true
