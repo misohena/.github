@@ -11,5 +11,6 @@ body:
     id: content
     attributes:
       label: Content
+      placeholder: Thank you for your feedback. We will consider it for future development.
     validations:
       required: true
