@@ -4,12 +4,12 @@ body:
   - type: markdown
     attributes:
       value: |
-        This issue will be closed automatically. Replies will generally not be provided. I may address the reported issue when I have free time, I may not, or I may even do the exact opposite.
+        Issues will be closed after a while. Replies will generally not be provided. I may address the reported issue when I have free time, I may not, or I may even do the exact opposite.
 
-        Issueは自動的にクローズされます。基本的に返信はしません。頂いたIssueは暇なときに修正するかもしれませんし、しないかもしれませんし、真逆の修正をするかもしれません。
+        Issueはしばらくした後クローズされます。基本的に返信はしません。頂いたIssueは暇なときに修正するかもしれませんし、しないかもしれませんし、真逆の修正をするかもしれません。
   - type: textarea
     id: content
     attributes:
-      label: 内容 / Content
+      label: Content
     validations:
       required: true
