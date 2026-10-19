@@ -1,0 +1,19 @@
+name: Suggestion box (No replies) / ご意見箱 (返信無し)
+description: Send a bug report or request / 不具合報告・要望の投函口
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Suggestion box / ご意見箱
+
+        **Note:** Issues are closed soon after submission, without waiting to be resolved.
+        I do not reply to reports. I may or may not act on them, and I may handle them differently from what you expect.
+
+        **注意:** Issueは解決を待たず、すぐにクローズされます。
+        基本的に返信はしません。頂いた内容は、暇なときに修正するかもしれませんし、しないかもしれませんし、ご期待と異なる形で対応するかもしれません。
+  - type: textarea
+    id: content
+    attributes:
+      label: Content / 内容
+    validations:
+      required: true
