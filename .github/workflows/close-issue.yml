@@ -1,0 +1,21 @@
+# <user>/.github/.github/workflows/close-issue.yml
+name: Close issue (reusable)
+on:
+  workflow_call:
+permissions:
+  issues: write
+jobs:
+  close:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          gh issue comment "$NUMBER" --repo "$REPO" --body "$BODY"
+          gh issue close "$NUMBER" --repo "$REPO" --reason "not planned"
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NUMBER: ${{ github.event.issue.number }}
+          REPO: ${{ github.repository }}
+          BODY: |
+            Thank you for your feedback. This repository uses a suggestion box: issues are closed soon after submission and I do not reply. I may read it later.
+
+            ご意見ありがとうございます。このリポジトリはご意見箱方式のため、Issueはすぐにクローズされ、返信はしません。後で読むかもしれません。
